@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DesignPatternDecorator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DesignPatternDecorator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DesignPatternDecorator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="base_doce.cpp" />
+		<Unit filename="base_doce.h" />
+		<Unit filename="base_salgada.cpp" />
+		<Unit filename="base_salgada.h" />
+		<Unit filename="calabresa.cpp" />
+		<Unit filename="calabresa.h" />
+		<Unit filename="cebola.cpp" />
+		<Unit filename="cebola.h" />
+		<Unit filename="chocolate.cpp" />
+		<Unit filename="chocolate.h" />
+		<Unit filename="confeitos.cpp" />
+		<Unit filename="confeitos.h" />
+		<Unit filename="doce_leite.cpp" />
+		<Unit filename="doce_leite.h" />
+		<Unit filename="ingredientes.cpp" />
+		<Unit filename="ingredientes.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="molho_tomate.cpp" />
+		<Unit filename="molho_tomate.h" />
+		<Unit filename="morangos.cpp" />
+		<Unit filename="morangos.h" />
+		<Unit filename="pimentao.cpp" />
+		<Unit filename="pimentao.h" />
+		<Unit filename="pizza.cpp" />
+		<Unit filename="pizza.h" />
+		<Unit filename="porcao_queijo.cpp" />
+		<Unit filename="porcao_queijo.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
